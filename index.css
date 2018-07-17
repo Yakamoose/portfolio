@@ -259,6 +259,9 @@ html,body{
   .landing .headline {
     font-size: 30px;
   }
+  .description a {
+    font-size: 15px;
+  }
 }
 
 
