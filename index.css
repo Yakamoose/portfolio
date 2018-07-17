@@ -16,6 +16,10 @@ html,body{
 
 }
 
+.landing .headline {
+  font-size: 35px;
+}
+
 .hero-img {
     min-height:100%;
     min-width:100%;
@@ -120,7 +124,7 @@ html,body{
 }
 
 .port-img {
-  width: 700px;
+  width: 40%;
   height: 100%;
 }
 
@@ -193,14 +197,69 @@ html,body{
 
 .contact img {
   height: 100px;
-  margin: 30px 30px;
+  margin: 20px 30px;
+  position: relative;
+  right: 20px;
+}
+
+.icon {
+  transition: all .6s ease-in-out;
+}
+.icon:hover {
+  transform: scale(1.1);
 }
 
 
 
+@media only screen and (max-width: 1100px) {
+
+  .about p {
+    font-size: 18px;
+  }
+  .project {
+    display: block;
+    height: fit-content;
+    padding-bottom: 30px;
+    min-width: 320px;
+  }
+  .port-img {
+    min-width: 300px;
+    min-height: 200px;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+  .img-left {
+    float: none;
+    display: block;
+    margin: 0 auto;
+
+  }
+  .img-right {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  .unfade {
+     opacity: 1;
+  }
+  .contact img {
+    position: relative;
+    right: 20px;
+    height: 50px;
+    margin: 20px 10px;
+  }
 
 
+}
 
+@media only screen and (max-width: 450px) {
+  .landing h1 {
+    font-size: 50px;
+  }
+  .landing .headline {
+    font-size: 30px;
+  }
+}
 
 
 
