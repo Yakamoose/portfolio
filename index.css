@@ -116,12 +116,22 @@ html,body{
 }
 
 .modern {
-  background-color: #F1E4B3;
+  background-color: #ED9770;
+
 }
 
 .happy {
+  background-color: #F1E4B3;
+}
+
+.winery {
+  background-color: #F1E4B3;
+}
+
+.wedding {
   background-color: #ED9770;
 }
+
 
 .port-img {
   width: 40%;
@@ -215,6 +225,9 @@ html,body{
 
   .about p {
     font-size: 18px;
+  }
+  .about i {
+    margin: 0 15px;
   }
   .project {
     display: block;
