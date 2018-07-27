@@ -53,12 +53,18 @@ html,body{
            animation: fadein 5s;
 }
 
-.landing h1 {
+.landing a {
   border-top: 6px solid ivory;
   border-bottom: 6px solid ivory;
   padding: 5px 0;
   font-size: 70px;
+  text-decoration: none;
+  color: ivory;
 
+}
+
+.landing a:hover {
+  cursor: cell;
 }
 
 .landing h2 {
@@ -112,7 +118,8 @@ html,body{
 }
 
 .seven-mill {
-  background-color: #ED9770;
+  background-color: #F1E4B3;
+
 }
 
 .modern {
@@ -121,7 +128,8 @@ html,body{
 }
 
 .happy {
-  background-color: #F1E4B3;
+  background-color: #ED9770;
+
 }
 
 .winery {
@@ -206,7 +214,7 @@ html,body{
 }
 
 .contact img {
-  height: 100px;
+  height: 80px;
   margin: 20px 30px;
   position: relative;
   right: 20px;
