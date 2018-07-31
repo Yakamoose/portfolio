@@ -72,6 +72,11 @@ html,body{
   font-size: 30px;
 }
 
+.fa-angle-down {
+  font-size: 100px;
+  color:red;
+}
+
 
 /*----------ABOUT ME-------------*/
 
