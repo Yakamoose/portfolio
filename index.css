@@ -238,6 +238,9 @@ html,body{
   .landing a {
     font-size: 50px;
   }
+  .landing h2 {
+    font-size: 25px;
+  }
   .about p {
     font-size: 18px;
   }
@@ -283,9 +286,13 @@ html,body{
 
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 750px) {
   .landing a {
     font-size: 35px;
+  }
+
+  .intro {
+    width: fit-content;
   }
 }
 
@@ -294,8 +301,9 @@ html,body{
     font-size: 35px;
   }
   .landing h1 {
-    font-size: 25spx;
+    font-size: 25px;
   }
+
   .landing .headline {
     font-size: 25px;
   }
