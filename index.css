@@ -53,7 +53,7 @@ html,body{
            animation: fadein 5s;
 }
 
-.intro a {
+.intro a.name {
   border-top: 6px solid ivory;
   border-bottom: 6px solid ivory;
   padding: 5px 0;
